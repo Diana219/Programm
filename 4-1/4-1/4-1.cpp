@@ -128,7 +128,7 @@ void randomizeArray(int* array, const size_t size, const int min, const int max)
     const uniform_int_distribution<> uniformIntDistribution(min, max);
 
     for (size_t i = 0; i < size; ++i)
-        array[i] = uniforormintdistribution(gen);
+        array[i] = uniformIntDistribution(gen);
 }
 
 void manualInput(int* array, const size_t size)
